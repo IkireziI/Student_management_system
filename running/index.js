@@ -1,4 +1,4 @@
-const { add } = require("../controller/backend-trainee.js");
+const { add, displayAll } = require("../controller/backend-trainee.js");
 
 // added new trainee
 
@@ -10,3 +10,4 @@ const newTrainee = {
 };
 
 add(newTrainee);
+displayAll;
